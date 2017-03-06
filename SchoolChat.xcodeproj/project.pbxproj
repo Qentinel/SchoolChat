@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE5179E21E69815200055FCC /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5179E01E69815200055FCC /* MainTabViewController.swift */; };
+		EE5179E31E69815200055FCC /* MainTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE5179E11E69815200055FCC /* MainTabViewController.xib */; };
+		EE5179E71E69910300055FCC /* ContactTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5179E51E69910300055FCC /* ContactTabViewController.swift */; };
+		EE5179E81E69910300055FCC /* ContactTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE5179E61E69910300055FCC /* ContactTabViewController.xib */; };
+		EE5179EB1E69921800055FCC /* TrendTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5179E91E69921800055FCC /* TrendTabViewController.swift */; };
+		EE5179EC1E69921800055FCC /* TrendTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE5179EA1E69921800055FCC /* TrendTabViewController.xib */; };
+		EE61741B1E6D097E00B8C6BB /* Marco.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE61741A1E6D097E00B8C6BB /* Marco.swift */; };
+		EE61741E1E6D236000B8C6BB /* ChooseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE61741D1E6D236000B8C6BB /* ChooseView.swift */; };
+		EE6174201E6D236900B8C6BB /* ChooseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE61741F1E6D236900B8C6BB /* ChooseView.xib */; };
+		EE6174291E6D44DE00B8C6BB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6174271E6D44DE00B8C6BB /* SearchViewController.swift */; };
+		EE61742A1E6D44DE00B8C6BB /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE6174281E6D44DE00B8C6BB /* SearchViewController.xib */; };
+		EE61742F1E6D44F800B8C6BB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE61742D1E6D44F800B8C6BB /* GameViewController.swift */; };
+		EE6174301E6D44F800B8C6BB /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE61742E1E6D44F800B8C6BB /* GameViewController.xib */; };
+		EE6174331E6D450600B8C6BB /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6174311E6D450600B8C6BB /* SettingViewController.swift */; };
+		EE6174341E6D450600B8C6BB /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE6174321E6D450600B8C6BB /* SettingViewController.xib */; };
+		EE61743B1E6D4C0600B8C6BB /* NavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE61743A1E6D4C0600B8C6BB /* NavBarView.swift */; };
+		EE6174411E6D4C3000B8C6BB /* NavBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE6174401E6D4C3000B8C6BB /* NavBarView.xib */; };
+		EED023071E6910ED00A081D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED023061E6910ED00A081D5 /* AppDelegate.swift */; };
+		EED0230E1E6910ED00A081D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EED0230D1E6910ED00A081D5 /* Assets.xcassets */; };
+		EED023111E6910ED00A081D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED0230F1E6910ED00A081D5 /* LaunchScreen.storyboard */; };
+		EED023271E69137B00A081D5 /* UnderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED023261E69137B00A081D5 /* UnderView.swift */; };
+		EED023291E69138D00A081D5 /* UnderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EED023281E69138D00A081D5 /* UnderView.xib */; };
+		EED0232C1E6913BB00A081D5 /* SetProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED0232A1E6913BB00A081D5 /* SetProfileViewController.swift */; };
+		EED0232D1E6913BB00A081D5 /* SetProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EED0232B1E6913BB00A081D5 /* SetProfileViewController.xib */; };
+		EED023321E6913FD00A081D5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED023301E6913FD00A081D5 /* LoginViewController.swift */; };
+		EED023331E6913FD00A081D5 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EED023311E6913FD00A081D5 /* LoginViewController.xib */; };
+		EED023361E69140A00A081D5 /* ActiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED023341E69140A00A081D5 /* ActiveViewController.swift */; };
+		EED023371E69140A00A081D5 /* ActiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EED023351E69140A00A081D5 /* ActiveViewController.xib */; };
+		EED0233B1E6916A300A081D5 /* ActiveOrLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED023391E6916A300A081D5 /* ActiveOrLoginViewController.swift */; };
+		EED0233C1E6916A300A081D5 /* ActiveOrLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EED0233A1E6916A300A081D5 /* ActiveOrLoginViewController.xib */; };
+		EED0234A1E69175D00A081D5 /* BuddyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED023481E69175D00A081D5 /* BuddyListViewController.swift */; };
+		EED0234B1E69175D00A081D5 /* BuddyListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EED023491E69175D00A081D5 /* BuddyListViewController.xib */; };
+		EED0234E1E69176B00A081D5 /* GroupListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED0234C1E69176B00A081D5 /* GroupListViewController.swift */; };
+		EED0234F1E69176B00A081D5 /* GroupListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EED0234D1E69176B00A081D5 /* GroupListViewController.xib */; };
+		EED023551E6917A200A081D5 /* SchoolTrendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED023531E6917A200A081D5 /* SchoolTrendViewController.swift */; };
+		EED023561E6917A200A081D5 /* SchoolTrendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EED023541E6917A200A081D5 /* SchoolTrendViewController.xib */; };
+		EED023591E6917B300A081D5 /* InterestTrendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED023571E6917B300A081D5 /* InterestTrendViewController.swift */; };
+		EED0235A1E6917B300A081D5 /* InterestTrendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EED023581E6917B300A081D5 /* InterestTrendViewController.xib */; };
+		EED0235D1E6917C000A081D5 /* ClassTrendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED0235B1E6917C000A081D5 /* ClassTrendViewController.swift */; };
+		EED0235E1E6917C000A081D5 /* ClassTrendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EED0235C1E6917C000A081D5 /* ClassTrendViewController.xib */; };
+		EED023621E6918CE00A081D5 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED023601E6918CE00A081D5 /* ChatViewController.swift */; };
+		EED023631E6918CE00A081D5 /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EED023611E6918CE00A081D5 /* ChatViewController.xib */; };
+		EED0236E1E6954E100A081D5 /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED0236D1E6954E100A081D5 /* SlideMenuController.swift */; };
+		EED023711E69560000A081D5 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED0236F1E69560000A081D5 /* LeftViewController.swift */; };
+		EED023721E69560000A081D5 /* LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EED023701E69560000A081D5 /* LeftViewController.xib */; };
+		EED023791E695BC600A081D5 /* HeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED023781E695BC600A081D5 /* HeadView.swift */; };
+		EED0237B1E695BD100A081D5 /* HeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EED0237A1E695BD100A081D5 /* HeadView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE5179E01E69815200055FCC /* MainTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
+		EE5179E11E69815200055FCC /* MainTabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTabViewController.xib; sourceTree = "<group>"; };
+		EE5179E51E69910300055FCC /* ContactTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTabViewController.swift; sourceTree = "<group>"; };
+		EE5179E61E69910300055FCC /* ContactTabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactTabViewController.xib; sourceTree = "<group>"; };
+		EE5179E91E69921800055FCC /* TrendTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendTabViewController.swift; sourceTree = "<group>"; };
+		EE5179EA1E69921800055FCC /* TrendTabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrendTabViewController.xib; sourceTree = "<group>"; };
+		EE61741A1E6D097E00B8C6BB /* Marco.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Marco.swift; sourceTree = "<group>"; };
+		EE61741D1E6D236000B8C6BB /* ChooseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseView.swift; sourceTree = "<group>"; };
+		EE61741F1E6D236900B8C6BB /* ChooseView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChooseView.xib; sourceTree = "<group>"; };
+		EE6174271E6D44DE00B8C6BB /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		EE6174281E6D44DE00B8C6BB /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		EE61742D1E6D44F800B8C6BB /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		EE61742E1E6D44F800B8C6BB /* GameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
+		EE6174311E6D450600B8C6BB /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		EE6174321E6D450600B8C6BB /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
+		EE61743A1E6D4C0600B8C6BB /* NavBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavBarView.swift; sourceTree = "<group>"; };
+		EE6174401E6D4C3000B8C6BB /* NavBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavBarView.xib; sourceTree = "<group>"; };
+		EED023031E6910ED00A081D5 /* SchoolChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED023061E6910ED00A081D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EED0230D1E6910ED00A081D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EED023101E6910ED00A081D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EED023121E6910ED00A081D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EED023261E69137B00A081D5 /* UnderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnderView.swift; sourceTree = "<group>"; };
+		EED023281E69138D00A081D5 /* UnderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UnderView.xib; sourceTree = "<group>"; };
+		EED0232A1E6913BB00A081D5 /* SetProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetProfileViewController.swift; sourceTree = "<group>"; };
+		EED0232B1E6913BB00A081D5 /* SetProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetProfileViewController.xib; sourceTree = "<group>"; };
+		EED023301E6913FD00A081D5 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EED023311E6913FD00A081D5 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		EED023341E69140A00A081D5 /* ActiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveViewController.swift; sourceTree = "<group>"; };
+		EED023351E69140A00A081D5 /* ActiveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActiveViewController.xib; sourceTree = "<group>"; };
+		EED023391E6916A300A081D5 /* ActiveOrLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveOrLoginViewController.swift; sourceTree = "<group>"; };
+		EED0233A1E6916A300A081D5 /* ActiveOrLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActiveOrLoginViewController.xib; sourceTree = "<group>"; };
+		EED023481E69175D00A081D5 /* BuddyListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuddyListViewController.swift; sourceTree = "<group>"; };
+		EED023491E69175D00A081D5 /* BuddyListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BuddyListViewController.xib; sourceTree = "<group>"; };
+		EED0234C1E69176B00A081D5 /* GroupListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupListViewController.swift; sourceTree = "<group>"; };
+		EED0234D1E69176B00A081D5 /* GroupListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupListViewController.xib; sourceTree = "<group>"; };
+		EED023531E6917A200A081D5 /* SchoolTrendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolTrendViewController.swift; sourceTree = "<group>"; };
+		EED023541E6917A200A081D5 /* SchoolTrendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SchoolTrendViewController.xib; sourceTree = "<group>"; };
+		EED023571E6917B300A081D5 /* InterestTrendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestTrendViewController.swift; sourceTree = "<group>"; };
+		EED023581E6917B300A081D5 /* InterestTrendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InterestTrendViewController.xib; sourceTree = "<group>"; };
+		EED0235B1E6917C000A081D5 /* ClassTrendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassTrendViewController.swift; sourceTree = "<group>"; };
+		EED0235C1E6917C000A081D5 /* ClassTrendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassTrendViewController.xib; sourceTree = "<group>"; };
+		EED023601E6918CE00A081D5 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		EED023611E6918CE00A081D5 /* ChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
+		EED0236D1E6954E100A081D5 /* SlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuController.swift; sourceTree = "<group>"; };
+		EED0236F1E69560000A081D5 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		EED023701E69560000A081D5 /* LeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftViewController.xib; sourceTree = "<group>"; };
+		EED023781E695BC600A081D5 /* HeadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadView.swift; sourceTree = "<group>"; };
+		EED0237A1E695BD100A081D5 /* HeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeadView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EED023001E6910ED00A081D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE6174191E6D096600B8C6BB /* Marcos */ = {
+			isa = PBXGroup;
+			children = (
+				EE61741A1E6D097E00B8C6BB /* Marco.swift */,
+			);
+			name = Marcos;
+			sourceTree = "<group>";
+		};
+		EE61741C1E6D234000B8C6BB /* ChooseView */ = {
+			isa = PBXGroup;
+			children = (
+				EE61741D1E6D236000B8C6BB /* ChooseView.swift */,
+				EE61741F1E6D236900B8C6BB /* ChooseView.xib */,
+			);
+			name = ChooseView;
+			sourceTree = "<group>";
+		};
+		EE6174211E6D3BAE00B8C6BB /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		EE6174241E6D43C700B8C6BB /* SearchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EE6174271E6D44DE00B8C6BB /* SearchViewController.swift */,
+				EE6174281E6D44DE00B8C6BB /* SearchViewController.xib */,
+			);
+			name = SearchViewController;
+			sourceTree = "<group>";
+		};
+		EE6174251E6D43F000B8C6BB /* GameViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EE61742D1E6D44F800B8C6BB /* GameViewController.swift */,
+				EE61742E1E6D44F800B8C6BB /* GameViewController.xib */,
+			);
+			name = GameViewController;
+			sourceTree = "<group>";
+		};
+		EE6174261E6D43FE00B8C6BB /* SettingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EE6174311E6D450600B8C6BB /* SettingViewController.swift */,
+				EE6174321E6D450600B8C6BB /* SettingViewController.xib */,
+			);
+			name = SettingViewController;
+			sourceTree = "<group>";
+		};
+		EE6174391E6D4BC500B8C6BB /* NavBarView */ = {
+			isa = PBXGroup;
+			children = (
+				EE61743A1E6D4C0600B8C6BB /* NavBarView.swift */,
+				EE6174401E6D4C3000B8C6BB /* NavBarView.xib */,
+			);
+			name = NavBarView;
+			sourceTree = "<group>";
+		};
+		EED022FA1E6910ED00A081D5 = {
+			isa = PBXGroup;
+			children = (
+				EED023051E6910ED00A081D5 /* SchoolChat */,
+				EED023041E6910ED00A081D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EED023041E6910ED00A081D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EED023031E6910ED00A081D5 /* SchoolChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EED023051E6910ED00A081D5 /* SchoolChat */ = {
+			isa = PBXGroup;
+			children = (
+				EED0236B1E6954AD00A081D5 /* 3rdParty */,
+				EED023181E69111F00A081D5 /* Supports */,
+				EED0231F1E69128C00A081D5 /* Customs */,
+				EED023191E69113F00A081D5 /* Active&Login */,
+				EED0231A1E69118200A081D5 /* Main */,
+			);
+			path = SchoolChat;
+			sourceTree = "<group>";
+		};
+		EED023181E69111F00A081D5 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				EED023061E6910ED00A081D5 /* AppDelegate.swift */,
+				EED0230D1E6910ED00A081D5 /* Assets.xcassets */,
+				EED0230F1E6910ED00A081D5 /* LaunchScreen.storyboard */,
+				EED023121E6910ED00A081D5 /* Info.plist */,
+			);
+			name = Supports;
+			sourceTree = "<group>";
+		};
+		EED023191E69113F00A081D5 /* Active&Login */ = {
+			isa = PBXGroup;
+			children = (
+				EED023381E69166800A081D5 /* Active||Login */,
+			);
+			name = "Active&Login";
+			sourceTree = "<group>";
+		};
+		EED0231A1E69118200A081D5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EE5179E01E69815200055FCC /* MainTabViewController.swift */,
+				EE5179E11E69815200055FCC /* MainTabViewController.xib */,
+				EED0231C1E6911B600A081D5 /* Contact */,
+				EED0231B1E6911B200A081D5 /* Trend */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		EED0231B1E6911B200A081D5 /* Trend */ = {
+			isa = PBXGroup;
+			children = (
+				EE5179E91E69921800055FCC /* TrendTabViewController.swift */,
+				EE5179EA1E69921800055FCC /* TrendTabViewController.xib */,
+				EED023521E69177800A081D5 /* School */,
+				EED023511E69177600A081D5 /* Interest */,
+				EED023501E69177300A081D5 /* Class */,
+			);
+			name = Trend;
+			sourceTree = "<group>";
+		};
+		EED0231C1E6911B600A081D5 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				EE5179E51E69910300055FCC /* ContactTabViewController.swift */,
+				EE5179E61E69910300055FCC /* ContactTabViewController.xib */,
+				EED023471E69174100A081D5 /* BuddyList */,
+				EED023461E69173D00A081D5 /* GroupList */,
+			);
+			name = Contact;
+			sourceTree = "<group>";
+		};
+		EED0231E1E69124300A081D5 /* SetProfile */ = {
+			isa = PBXGroup;
+			children = (
+				EED0232A1E6913BB00A081D5 /* SetProfileViewController.swift */,
+				EED0232B1E6913BB00A081D5 /* SetProfileViewController.xib */,
+			);
+			name = SetProfile;
+			sourceTree = "<group>";
+		};
+		EED0231F1E69128C00A081D5 /* Customs */ = {
+			isa = PBXGroup;
+			children = (
+				EE6174211E6D3BAE00B8C6BB /* Delegates */,
+				EE6174191E6D096600B8C6BB /* Marcos */,
+				EED023731E69590700A081D5 /* Views */,
+			);
+			name = Customs;
+			sourceTree = "<group>";
+		};
+		EED023241E69134D00A081D5 /* LeftView */ = {
+			isa = PBXGroup;
+			children = (
+				EED0236F1E69560000A081D5 /* LeftViewController.swift */,
+				EED023701E69560000A081D5 /* LeftViewController.xib */,
+				EE6174241E6D43C700B8C6BB /* SearchViewController */,
+				EE6174251E6D43F000B8C6BB /* GameViewController */,
+				EE6174261E6D43FE00B8C6BB /* SettingViewController */,
+			);
+			name = LeftView;
+			sourceTree = "<group>";
+		};
+		EED023251E69135500A081D5 /* UnderView */ = {
+			isa = PBXGroup;
+			children = (
+				EED023261E69137B00A081D5 /* UnderView.swift */,
+				EED023281E69138D00A081D5 /* UnderView.xib */,
+			);
+			name = UnderView;
+			sourceTree = "<group>";
+		};
+		EED0232E1E6913E000A081D5 /* Active */ = {
+			isa = PBXGroup;
+			children = (
+				EED0231E1E69124300A081D5 /* SetProfile */,
+				EED023341E69140A00A081D5 /* ActiveViewController.swift */,
+				EED023351E69140A00A081D5 /* ActiveViewController.xib */,
+			);
+			name = Active;
+			sourceTree = "<group>";
+		};
+		EED0232F1E6913EE00A081D5 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EED023301E6913FD00A081D5 /* LoginViewController.swift */,
+				EED023311E6913FD00A081D5 /* LoginViewController.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		EED023381E69166800A081D5 /* Active||Login */ = {
+			isa = PBXGroup;
+			children = (
+				EED023391E6916A300A081D5 /* ActiveOrLoginViewController.swift */,
+				EED0233A1E6916A300A081D5 /* ActiveOrLoginViewController.xib */,
+				EED0232F1E6913EE00A081D5 /* Login */,
+				EED0232E1E6913E000A081D5 /* Active */,
+			);
+			name = "Active||Login";
+			sourceTree = "<group>";
+		};
+		EED023461E69173D00A081D5 /* GroupList */ = {
+			isa = PBXGroup;
+			children = (
+				EED0234C1E69176B00A081D5 /* GroupListViewController.swift */,
+				EED0234D1E69176B00A081D5 /* GroupListViewController.xib */,
+			);
+			name = GroupList;
+			sourceTree = "<group>";
+		};
+		EED023471E69174100A081D5 /* BuddyList */ = {
+			isa = PBXGroup;
+			children = (
+				EED023481E69175D00A081D5 /* BuddyListViewController.swift */,
+				EED023491E69175D00A081D5 /* BuddyListViewController.xib */,
+			);
+			name = BuddyList;
+			sourceTree = "<group>";
+		};
+		EED023501E69177300A081D5 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				EED0235B1E6917C000A081D5 /* ClassTrendViewController.swift */,
+				EED0235C1E6917C000A081D5 /* ClassTrendViewController.xib */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		EED023511E69177600A081D5 /* Interest */ = {
+			isa = PBXGroup;
+			children = (
+				EED023571E6917B300A081D5 /* InterestTrendViewController.swift */,
+				EED023581E6917B300A081D5 /* InterestTrendViewController.xib */,
+			);
+			name = Interest;
+			sourceTree = "<group>";
+		};
+		EED023521E69177800A081D5 /* School */ = {
+			isa = PBXGroup;
+			children = (
+				EED023531E6917A200A081D5 /* SchoolTrendViewController.swift */,
+				EED023541E6917A200A081D5 /* SchoolTrendViewController.xib */,
+			);
+			name = School;
+			sourceTree = "<group>";
+		};
+		EED0235F1E69188100A081D5 /* ChatViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EED023601E6918CE00A081D5 /* ChatViewController.swift */,
+				EED023611E6918CE00A081D5 /* ChatViewController.xib */,
+			);
+			name = ChatViewController;
+			sourceTree = "<group>";
+		};
+		EED0236B1E6954AD00A081D5 /* 3rdParty */ = {
+			isa = PBXGroup;
+			children = (
+				EED0236C1E6954CF00A081D5 /* SlideMenu */,
+			);
+			name = 3rdParty;
+			sourceTree = "<group>";
+		};
+		EED0236C1E6954CF00A081D5 /* SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				EED0236D1E6954E100A081D5 /* SlideMenuController.swift */,
+			);
+			name = SlideMenu;
+			sourceTree = "<group>";
+		};
+		EED023731E69590700A081D5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE6174391E6D4BC500B8C6BB /* NavBarView */,
+				EED0235F1E69188100A081D5 /* ChatViewController */,
+				EE61741C1E6D234000B8C6BB /* ChooseView */,
+				EED023771E695BA300A081D5 /* HeadView */,
+				EED023251E69135500A081D5 /* UnderView */,
+				EED023241E69134D00A081D5 /* LeftView */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EED023771E695BA300A081D5 /* HeadView */ = {
+			isa = PBXGroup;
+			children = (
+				EED023781E695BC600A081D5 /* HeadView.swift */,
+				EED0237A1E695BD100A081D5 /* HeadView.xib */,
+			);
+			name = HeadView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EED023021E6910ED00A081D5 /* SchoolChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EED023151E6910ED00A081D5 /* Build configuration list for PBXNativeTarget "SchoolChat" */;
+			buildPhases = (
+				EED022FF1E6910ED00A081D5 /* Sources */,
+				EED023001E6910ED00A081D5 /* Frameworks */,
+				EED023011E6910ED00A081D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SchoolChat;
+			productName = SchoolChat;
+			productReference = EED023031E6910ED00A081D5 /* SchoolChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EED022FB1E6910ED00A081D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Qentinel;
+				TargetAttributes = {
+					EED023021E6910ED00A081D5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EED022FE1E6910ED00A081D5 /* Build configuration list for PBXProject "SchoolChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EED022FA1E6910ED00A081D5;
+			productRefGroup = EED023041E6910ED00A081D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EED023021E6910ED00A081D5 /* SchoolChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EED023011E6910ED00A081D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED023721E69560000A081D5 /* LeftViewController.xib in Resources */,
+				EED023111E6910ED00A081D5 /* LaunchScreen.storyboard in Resources */,
+				EED0230E1E6910ED00A081D5 /* Assets.xcassets in Resources */,
+				EE5179E81E69910300055FCC /* ContactTabViewController.xib in Resources */,
+				EED0234B1E69175D00A081D5 /* BuddyListViewController.xib in Resources */,
+				EED0234F1E69176B00A081D5 /* GroupListViewController.xib in Resources */,
+				EED023331E6913FD00A081D5 /* LoginViewController.xib in Resources */,
+				EE6174341E6D450600B8C6BB /* SettingViewController.xib in Resources */,
+				EED023631E6918CE00A081D5 /* ChatViewController.xib in Resources */,
+				EED0235E1E6917C000A081D5 /* ClassTrendViewController.xib in Resources */,
+				EE6174201E6D236900B8C6BB /* ChooseView.xib in Resources */,
+				EE5179E31E69815200055FCC /* MainTabViewController.xib in Resources */,
+				EE6174411E6D4C3000B8C6BB /* NavBarView.xib in Resources */,
+				EE6174301E6D44F800B8C6BB /* GameViewController.xib in Resources */,
+				EED023371E69140A00A081D5 /* ActiveViewController.xib in Resources */,
+				EED0235A1E6917B300A081D5 /* InterestTrendViewController.xib in Resources */,
+				EE5179EC1E69921800055FCC /* TrendTabViewController.xib in Resources */,
+				EED0237B1E695BD100A081D5 /* HeadView.xib in Resources */,
+				EED0233C1E6916A300A081D5 /* ActiveOrLoginViewController.xib in Resources */,
+				EED0232D1E6913BB00A081D5 /* SetProfileViewController.xib in Resources */,
+				EED023291E69138D00A081D5 /* UnderView.xib in Resources */,
+				EE61742A1E6D44DE00B8C6BB /* SearchViewController.xib in Resources */,
+				EED023561E6917A200A081D5 /* SchoolTrendViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EED022FF1E6910ED00A081D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE61741B1E6D097E00B8C6BB /* Marco.swift in Sources */,
+				EE5179EB1E69921800055FCC /* TrendTabViewController.swift in Sources */,
+				EE5179E21E69815200055FCC /* MainTabViewController.swift in Sources */,
+				EED0234E1E69176B00A081D5 /* GroupListViewController.swift in Sources */,
+				EED0236E1E6954E100A081D5 /* SlideMenuController.swift in Sources */,
+				EED0235D1E6917C000A081D5 /* ClassTrendViewController.swift in Sources */,
+				EED023071E6910ED00A081D5 /* AppDelegate.swift in Sources */,
+				EED0232C1E6913BB00A081D5 /* SetProfileViewController.swift in Sources */,
+				EE61743B1E6D4C0600B8C6BB /* NavBarView.swift in Sources */,
+				EED0234A1E69175D00A081D5 /* BuddyListViewController.swift in Sources */,
+				EED023361E69140A00A081D5 /* ActiveViewController.swift in Sources */,
+				EE5179E71E69910300055FCC /* ContactTabViewController.swift in Sources */,
+				EE6174331E6D450600B8C6BB /* SettingViewController.swift in Sources */,
+				EED023791E695BC600A081D5 /* HeadView.swift in Sources */,
+				EE6174291E6D44DE00B8C6BB /* SearchViewController.swift in Sources */,
+				EED023271E69137B00A081D5 /* UnderView.swift in Sources */,
+				EE61742F1E6D44F800B8C6BB /* GameViewController.swift in Sources */,
+				EE61741E1E6D236000B8C6BB /* ChooseView.swift in Sources */,
+				EED023321E6913FD00A081D5 /* LoginViewController.swift in Sources */,
+				EED023551E6917A200A081D5 /* SchoolTrendViewController.swift in Sources */,
+				EED0233B1E6916A300A081D5 /* ActiveOrLoginViewController.swift in Sources */,
+				EED023711E69560000A081D5 /* LeftViewController.swift in Sources */,
+				EED023621E6918CE00A081D5 /* ChatViewController.swift in Sources */,
+				EED023591E6917B300A081D5 /* InterestTrendViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EED0230F1E6910ED00A081D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EED023101E6910ED00A081D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EED023131E6910ED00A081D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EED023141E6910ED00A081D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EED023161E6910ED00A081D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SchoolChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Qentinel.SchoolChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EED023171E6910ED00A081D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SchoolChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Qentinel.SchoolChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EED022FE1E6910ED00A081D5 /* Build configuration list for PBXProject "SchoolChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED023131E6910ED00A081D5 /* Debug */,
+				EED023141E6910ED00A081D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EED023151E6910ED00A081D5 /* Build configuration list for PBXNativeTarget "SchoolChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED023161E6910ED00A081D5 /* Debug */,
+				EED023171E6910ED00A081D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EED022FB1E6910ED00A081D5 /* Project object */;
+}
